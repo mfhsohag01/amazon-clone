@@ -57,3 +57,25 @@ nav {
   padding-left: 20px;
   width: 100%; /* Full width */
 }
+.nav-search-icon {
+  max-width: 41px;
+  padding: 8px;
+  background: #ffd64f;
+  border: 0 4px 4px 0;
+}
+.nav-language {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.nav-text {
+  margin-left: 15px;
+}
+.nav-text {
+  font-size: 10px;
+}
+.nav-text h1 {
+  font-size: 14px;
+}
