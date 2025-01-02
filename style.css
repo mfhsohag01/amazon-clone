@@ -100,3 +100,7 @@ nav {
   gap: 5px;
   font-weight: 500;
 }
+.header-slider ul {
+  display: flex;
+  overflow-y: hidden;
+}
