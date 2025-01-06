@@ -6,3 +6,53 @@ body {
   padding: 10px 20px;
   color: #565656;
 }
+.product-display {
+  min-height: 100%;
+  padding: 10px 20px;
+  display: flex;
+}
+.product-d-image {
+  display: flex;
+  gap: 10px;
+}
+.product-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product-icons img {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+}
+.product-d-details {
+  margin: 0 30px;
+}
+.product-title {
+  font-size: 25px;
+}
+.brand-store {
+  margin-top: 5px;
+  color: #007185;
+  font-size: 14px;
+}
+.product-ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product-ratings div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.product-ratings p {
+  color: #007185;
+}
+.product-ratings p span {
+  color: #fff;
+  background: #c73500;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 14px;
+}
