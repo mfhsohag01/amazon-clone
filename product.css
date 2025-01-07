@@ -56,3 +56,29 @@ body {
   border-radius: 3px;
   font-size: 14px;
 }
+.product-ratings h5 {
+  font-weight: 400;
+}
+.product-price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.product-price div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+.product-price div p {
+  font-size: 25px;
+  color: #c73500;
+}
+.product-price div h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.product-price div h5 {
+  font-weight: 400;
+  color: #565656;
+}
