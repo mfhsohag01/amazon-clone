@@ -145,3 +145,14 @@ body {
   font-size: 25px;
   padding: 2px;
 }
+.product-d-purchase .gap {
+  margin: 15px 0;
+}
+.product-d-purchase p span {
+  color: #007185;
+}
+.delivery-location {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
