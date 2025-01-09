@@ -156,3 +156,29 @@ body {
   align-items: center;
   gap: 3px;
 }
+.product-stock {
+  margin: 15px 0;
+  color: green;
+  font-weight: 400;
+}
+.product-quantity {
+  padding: 8px 5px;
+  outline: none;
+  width: 100%;
+  border-radius: 5px;
+  background: #efefef;
+  border-color: #c1c1c1;
+}
+.product-d-purchase .btn {
+  outline: none;
+  border: none;
+  background: #ffd814;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.product-d-purchase .product-buy {
+  background: #ffa41c;
+}
