@@ -182,3 +182,29 @@ body {
 .product-d-purchase .product-buy {
   background: #ffa41c;
 }
+.product-seller-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 4px;
+  font-size: 14px;
+  color: #565656;
+  margin-top: 10px;
+}
+.product-seller-info span {
+  color: #007185;
+}
+.product-d-purchase hr {
+  margin: 20px 0;
+}
+.product-add-list {
+  width: 100%;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  text-align: start;
+  background: #fff;
+  cursor: pointer;
+}
+.product-footer {
+  margin-top: 100px;
+}
