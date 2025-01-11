@@ -61,3 +61,27 @@
 .product-cart-giftsoptions span {
   color: #007185;
 }
+.product-carat-specs {
+  max-width: 150px;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 3px;
+  font-size: 13px;
+  margin: 7px 0;
+}
+.cart-list-actions {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+  color: #007185;
+}
+.cart-list-actions hr {
+  height: 20px;
+  width: 1px;
+  background: #cfcfcf;
+}
+.cart-list-actions select {
+  padding: 5px;
+  border-radius: 6px;
+  background: #f3f3f3;
+}
