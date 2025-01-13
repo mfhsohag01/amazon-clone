@@ -228,3 +228,35 @@ footer {
   background: #131921;
   padding: 20px 60px;
 }
+/* media query for responsive design */
+@media only screen and (max-width: 900px) {
+  nav {
+    flex-wrap: wrap;
+  }
+  .box-col {
+    max-width: 48%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-country {
+    display: none;
+  }
+  .nav-language {
+    display: none;
+  }
+  .nav-text {
+    display: none;
+  }
+  .nav-bottom {
+    font-size: 13px;
+    gap: 10px;
+    overflow-x: scroll;
+  }
+  .nav-bottom::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-bottom p {
+    text-wrap: nowrap;
+  }
+}
